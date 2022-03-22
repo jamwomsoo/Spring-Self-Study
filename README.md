@@ -3,11 +3,14 @@
 java Sring을 공부 정리
 
 **인프런 백기선 강좌**
-* 스프링 프레임 워크 입문 - spring-perclinic (IOC, AOP, PSA)
+* 스프링 프레임 워크 입문 
+   - spring-perclinic (IOC, AOP, PSA)
 
 
 **인프런 김영한 강좌**
-* 스프링 핵심 원리 - core { 원리(DI 컨테이너), 기능(스프링 컨테이너, 빈, 싱글톤, 컴포넌트 자동 주입, 빈 생명주기 콜백, 빈 스코프)}
+* 스프링 핵심 원리 
+    - core { 원리(DI 컨테이너), 기능(스프링 컨테이너, 빈, 싱글톤, 컴포넌트 자동 주입, 빈 생명주기 콜백, 빈 스코프)}
+
 * 스프링 MVC 1편
     - servlet (HttpServletRequest, HttpServletResponse, 요청 데이터, 응답데이터/ MVC 프레임워크을 직접 만드는 프로젝트)
     - springmvc (MVC 프레임워크 기본 기능 - HTTP 요청 매핑/파라미터/메시지, HTTP 응답, HTTP 메세지 컨버터) 
