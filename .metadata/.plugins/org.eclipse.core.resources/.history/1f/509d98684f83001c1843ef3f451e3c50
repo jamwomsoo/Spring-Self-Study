@@ -1,0 +1,8 @@
+package com.greglturnquist.hackingspringboot.reactive;
+
+import org.springframework.test.context.junit.jupiter.SpringExtension;
+
+@ExtendWith(SpringExtension.class)
+public class InventoryServiceUnitTest {
+
+}

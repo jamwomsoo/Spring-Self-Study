@@ -1,0 +1,20 @@
+package com.greglturnquist.hackingspringboot.reactive;
+
+import reactor.core.publisher.Flux;
+
+public class InventoryService {
+
+	private final ItemRepository itemRepository;
+	private final CartRepository cartRepository;
+	private String description;
+
+	InventoryService(ItemRepository itemRepository, CartRepository cartRepository){
+		this.itemRepository = itemRepository;
+		this.cartRepository = cartRepository;
+	}
+
+	Flux<Item> searchByExample(String name, String description,  0.0){
+		
+	}
+	
+}

@@ -1,0 +1,14 @@
+package com.greglturnquist.hackingspringboot.reactive;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+@Component
+public class RepositoryDatabaseLoader {
+
+	
+	@Bean
+	CommandLineRunner intialize(BlockingItemRepository repository) {
+		
+	}
+}

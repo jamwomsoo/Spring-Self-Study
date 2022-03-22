@@ -1,0 +1,20 @@
+package com.greglturnquist.hackingspringboot.reactive;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
+
+@DataMongoTest
+public class MongoDbSliceTest {
+
+	@Autowired ItemRepository repository;
+	
+	@Test
+	void itemRepositorySavesItems(){
+		Item sampleItem = new Item(
+				"name", "description", 1.99);
+		
+		repository.save(sampleItem)
+		.as(StepVerifier::create);
+		
+	}	
+}

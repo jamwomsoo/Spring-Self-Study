@@ -1,0 +1,17 @@
+package com.greglturnquist.hackingspringboot.reactive;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class CartService {
+	
+	private final ItemRepository itemRepository;
+	private final CartRepository cartRepository;
+	
+	CartService(ItemRepository itemRepository, CartRepository cartRepository){
+		this.itemRepository = itemRepository;
+		this.cartRepository = cartRepository;
+	}
+	
+	
+}

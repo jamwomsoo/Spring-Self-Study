@@ -1,0 +1,20 @@
+package com.greglturnquist.hackingspringboot.reactive;
+
+
+
+import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertThat;
+public class ItemunitTest {
+
+	@Test //
+	void itemBasicsShouldWork() {
+		Item sampleItem = new Item("item1", "TV tray", "Alf TV tray", 19.99);
+		
+		assertThat(sampleItem.getId()).isEqualTo("item1");
+		assertThat(sampleItem.getName()).isEqualTo("TV tray");
+		asserThat(sampleItem.getDescription()).isEqualTo("Alf TV tray");
+		assertThat(sampleItem.getPrice()).isEqualTo(19.99);
+		
+		
+	}
+}
