@@ -21,6 +21,7 @@ java Sring을 공부 정리
     - form (상품 관리 프로젝트(item-service) + 타임리프 스프링 통합)
     - message [상품 관리 프로젝트(item-service) + message 관리 기능(messages.properteis 메세지 관리용 파일 생성, 적용), 메세지 국제화(나라별로 별도로 관리)]
     - validation (상품 관리 프로젝트 + http(필드,객체 오류) 검증/메세지 처리, Bean Validation 적용, - HTTP 메시지 컨버터(api) 검증/오류 처리)
+    - login [상품 관리 프로젝트 + 로그인기능(쿠키, 세션,세션 필터,인터셉터) + 회원가입 기능 +  로그아웃 기능]
 
 
 **스프링 부트 실전 활용 마스터 (보류)**
