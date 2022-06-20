@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;hacking-spring-boot-ch1-reactive&apos;" deleteContents="true" description="Delete resource &apos;hacking-spring-boot-ch1-reactive&apos;" element1="/hacking-spring-boot-ch1-reactive" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1643031721800"/>&#x0A;<refactoring comment="Delete resource &apos;hacking-spring-boot-ch1.1-reactive&apos;" deleteContents="true" description="Delete resource &apos;hacking-spring-boot-ch1.1-reactive&apos;" element1="/hacking-spring-boot-ch1.1-reactive" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1643032321345"/>
-</session>
